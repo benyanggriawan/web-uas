@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type ="text/javascript">
+        alert("selamat datang");
+        </script>
+        <title>DOCUMENT</title>
+    </head>
+
+    <body>
+        
+        <script type ="text/javascript">
+            var jam;
+            jam=prompt("jam piro bosku?");
+            var print;
+            if (jam<=10)
+            {
+               
+                if(jam >=8.40 && jam <=10.20)
+                {
+                    alert("KULIAH PEMROGAMAN WEB COY !!");
+                }
+                alert("selamat pagi .");
+            }
+            else if(jam>10 && jam <=15)
+            {
+                alert("selamat siang .");
+            }
+            else
+            {
+                alert("good night .");
+            }
+
+            var konfirmasi= confirm("apakah anda ingin bertanya jam?.");
+            if(konfirmasi==true)
+                document.location.href="belajarjavas.html";
+            else
+            {
+                document.write("penentun jam telah berakhir");
+            }
+        </script>
+
+    </body>
+</html>

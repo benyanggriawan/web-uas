@@ -1,0 +1,23 @@
+.container > div {
+    align-items : center;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+    padding: 10px;
+}
+html,body{
+    background-color: white;
+    margin : 10px;
+}
+
+.container > div:nth-child(1){
+    background: orange;
+}
+
+.container > div:nth-child(2){
+    background: red;
+}
+
+.container > div:nth-child(3){
+    background: turquoise;
+}

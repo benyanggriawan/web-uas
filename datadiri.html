@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> FORM PENERIMA </title>
+<link rel="stylesheet" href="desain.css">
+</head>
+<body background="ben9.jpg">
+<h3> Form Pendaftaran UNIVERSITAS DIAN NUSWANTORO </h3>
+<form action="form2.php" method="GET">
+	Nama : <input type="text" name="nama"/></br>
+	Password : <input type ="password" name="password"/></br>
+	Jenis Kelamin : 
+		<input type="radio" name="jenis kelamin" value="laki-laki"checked/>laki-laki
+		<input type="radio" name="jenis kelamin" value="perempuan"checked/>perempuan
+		</br>
+		Keahlian : 
+		<input type="checkbox" name ="keahlian" value="menari" /> menari
+		<input type="checkbox" name ="keahlian" value="memanah" /> memanah
+		<input type="checkbox" name ="keahlian" value="berenang" /> berenang
+		</br>
+		Tempat & tanggal lahir :
+			<select name ="tempat lahir">
+				<option value="Jakarta">Jakarta</option>	
+				<option value="Bandung">Bandung</option>	
+				<option value="Bali">Bali</option>
+					</select>
+					</br>
+		Deskripsi Diri : 
+				<textarea name="deskripsi" rows="5" cols="20">
+				</textarea>
+				</br>
+			<input type="submit" value="Enter">
+			<input type="reset" value="reset">
+			<img src="formulir.PNG" width="200" height="142"></img><br><br>
+</body>
+</html>

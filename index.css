@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    border: 4px solid grey;
+    flex-direction: row;
+    justify-content: flex end;
+}
+
+.home{
+    margin-right: auto;
+}

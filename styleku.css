@@ -1,0 +1,104 @@
+	header {
+	 background-color:black;
+	 background-image:url('gambar/jazz.png');
+	 backgroud-repeat:no-repeat;
+	 bakground-position:right;
+	 height:150px;
+	 color:white;
+	 text-shadow: 1px 1px 2px red, 0 0 25px yellow, 0 0 5px white;
+	 text-indent:50px;
+	 font-size:100%;
+	 }
+	nav {
+	 background-color:grey;
+	 min-height:350px;
+	 width:150px;
+	 float:left;
+	 padding:5px;
+	 }
+	section {
+	 padding:5px;
+	 width:850px;
+	 float:left;
+	 }
+	footer {
+	 background-color:black;
+	 color:white;
+	 clear:both;
+	 text-align:center;
+	 }
+	 
+	/*table*/
+	table {
+		border-collapse: collapse;
+		width: 100%;
+	}	
+
+	th, td {
+		text-align: left;
+		padding: 8px;
+	}
+
+	tr:nth-child(even){background-color: #F2F2F2}
+	
+	th {
+		background-color: #4CAF50;
+		color: white;
+	}
+	
+	/*Menu Bar*/
+	ul.menu{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 150px;
+		background-color: #F1F1F1;
+		border: 1px solid #555;
+	}
+	li.menu{
+		text-align: center;
+		border-bottom: 1px solid #555;
+	}
+	
+	li a{
+		display: block;
+		color: #000;
+		padding: 8px 16px;
+		text-decoration: none;
+	}
+	li a.active{
+		background-color: #4CAF50;
+		color: white;
+	}
+	li a:hover:not(.active){
+		background-color: #555;
+		color: white;
+	}
+	/*Form*/
+	input[type=text]{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+		border: 2px solid red;
+		border-radius: 4px;
+	}
+	input[type=text]:focus{
+		background-color: lightblue;
+	}
+	select{
+		width: 100%;
+		padding: 16px 20px;
+		border: none;
+		border-radius: 4px;
+		background-color: #F1F1F1;
+	}
+	input[type=button], input[type=submit], input[type=reset]{
+		background-color: #4CAF50;
+		border: none;
+		color: white;
+		padding: 16px 32px;
+		text-decoration: none;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
